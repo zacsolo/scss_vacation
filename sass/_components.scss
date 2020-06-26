@@ -189,7 +189,7 @@
 // HOTEL OVERVIEW BODY
 .overview {
   display: flex;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   align-items: center;
 
   &__heading {
@@ -276,3 +276,6 @@
     box-shadow: none;
   }
 }
+
+/////////////////////////////////////////
+// INLINE BUTTON
